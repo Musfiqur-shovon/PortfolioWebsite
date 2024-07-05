@@ -47,8 +47,8 @@ function Resume() {
 
             <Education
               title="Secondary School Certificate"
-              year="2010 - 2014"
-              heading="Rochester Institute of Technology, Rochester, NY"
+              year="2017"
+              heading=""
               desc="QQuia nobis sequi est occaecati aut. Repudiandae et iusto quae
                 reiciendis et quis Eius vel ratione eius unde vitae rerum
                 voluptates asperiores voluptatem Earum molestiae consequatur
