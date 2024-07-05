@@ -1,0 +1,29 @@
+.heading-line {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  border: 1px solid var(--button-color);
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+.heading-line::after {
+  content: "";
+  height: 2px;
+  width: 60px;
+  background-color: var(--headline-bar);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 7px;
+}
+.heading-line::before {
+  content: "";
+  height: 2px;
+  width: 60px;
+  background-color: var(--headline-bar);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 6px;
+}

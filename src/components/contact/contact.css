@@ -1,0 +1,90 @@
+.contact-info {
+  background-color: var(--form-color);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contact-info label,
+input {
+  display: block;
+  color: black;
+}
+.contact-info input,
+textarea {
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+.contact-info input:focus,
+textarea:focus {
+  border: 2px solid var(--button-color);
+  outline: none;
+}
+.contact-info label {
+  padding-left: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--button-color);
+}
+.contact-info textarea {
+  height: 150px;
+  resize: none;
+}
+
+.coninfo {
+  height: 100%;
+  padding: 30px;
+  background-color: var(--form-color);
+  border-radius: 10px;
+}
+.image-contact {
+  width: 100%;
+  height: 250px;
+  background-color: black;
+  margin-bottom: 30px;
+}
+.coninfo h3,
+h5,
+p {
+  margin: 0 10px 0 10px;
+  padding: 0;
+}
+.coninfo h3 {
+  padding-bottom: 15px;
+}
+.coninfo h5 {
+  padding-bottom: 10px;
+  color: black;
+}
+.coninfo p {
+  text-align: justify;
+  color: black;
+}
+.communication {
+  display: inline-block;
+  position: relative;
+  color: rgb(88, 78, 78);
+}
+
+.communication::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 0;
+  background-color: var(--button-color);
+  transition: width 0.5s ease;
+}
+.communication:hover {
+  color: var(--button-color);
+}
+.communication:hover::before {
+  width: 100%;
+}

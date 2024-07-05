@@ -1,0 +1,59 @@
+.round-bar {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.progress-heading-text {
+  color: black;
+  text-align: center;
+  padding-top: 5px;
+}
+.progressbar {
+  --percentage: var(--value);
+  --primary: #fcbc51;
+  --secondary: rgba(0, 0, 0, 0.1);
+  --size: 150px; /* Adjust size as needed */
+  width: var(--size);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  animation: progress 2s ease-in forwards;
+}
+
+.progressbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: conic-gradient(
+    var(--primary) calc(var(--percentage) * 1%),
+    var(--secondary) 0
+  );
+  mask: radial-gradient(white 55%, transparent 0);
+  mask-mode: alpha;
+  -webkit-mask: radial-gradient(#0000 55%, #000 0);
+  -webkit-mask-mode: alpha;
+}
+
+.progressbar::after {
+  content: attr(aria-valuenow) "%"; /* Displays the value dynamically */
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: calc(var(--size) / 5);
+  color: var(--primary);
+}
+
+@keyframes progress {
+  0% {
+    --percentage: 0;
+  }
+  100% {
+    --percentage: var(--value);
+  }
+}

@@ -1,0 +1,55 @@
+.services {
+  padding: 50px;
+  background-color: var(--secondary-section);
+}
+@media screen and (max-width: 940px) {
+  .services {
+    padding: 30px 10px;
+  }
+}
+.services .services-row .seric-div .service-card {
+  background-color: var(--main-bg-color);
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 62px 0px rgba(0, 0, 0, 0.06);
+}
+.services .services-row .seric-div .service-card i {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 46px;
+  background-color: var(--button-color);
+  color: var(--main-bg-color);
+  border-radius: 25px;
+  border-bottom-right-radius: 0;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.services .services-row .seric-div .service-card h4 {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.services .services-row .seric-div .service-card p {
+  font-size: 0.95rem;
+  margin: 0;
+  margin-top: 15px;
+}
+.services .services-row .seric-div .service-card:hover {
+  background-color: var(--button-color);
+}
+.services .services-row .seric-div .service-card:hover i {
+  background-color: var(--main-bg-color);
+  color: var(--button-color);
+}
+.services .services-row .seric-div .service-card:hover h4 {
+  color: var(--main-bg-color);
+}
+.services .services-row .seric-div .service-card:hover p {
+  color: var(--main-bg-color);
+}

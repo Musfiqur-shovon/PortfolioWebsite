@@ -1,0 +1,75 @@
+/*Technical Skill Design*/
+.content-tech {
+  width: 100%;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.title-tech {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.progress-tech {
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.progress-bar-tech {
+  height: 18px;
+  border-radius: 4px;
+  background-color: #fcbc51;
+}
+
+.p1 {
+  width: 90%;
+  animation: progress-animation1 2s ease-out forwards;
+}
+.p2 {
+  width: 95%;
+  animation: progress-animation2 2s ease-out forwards;
+}
+.p3 {
+  width: 60%;
+  animation: progress-animation3 2s ease-out forwards;
+}
+.p4 {
+  width: 80%;
+  animation: progress-animation4 2s ease-out forwards;
+}
+
+@keyframes progress-animation1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+@keyframes progress-animation2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 95%;
+  }
+}
+@keyframes progress-animation3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 60%;
+  }
+}
+@keyframes progress-animation4 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
