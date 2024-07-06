@@ -37,7 +37,7 @@ function Resume() {
           <div className="col-lg-6">
             <h3 className="resume-title">Education</h3>
             <Education
-              title="BSc in Computer Science &amp; Engineering"
+              title="Bachelor in Computer Science &amp; Engineering"
               year="2020 - 2024"
               heading="BRAC University"
               desc="Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam
@@ -46,9 +46,18 @@ function Resume() {
             />
 
             <Education
+              title="Higher Secondary Certificate"
+              year="2017 - 2019"
+              heading="N.S. Government College, Natore"
+              desc="Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam
+                iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti
+                nerada porti sand markend"
+            />
+
+            <Education
               title="Secondary School Certificate"
-              year="2017"
-              heading=""
+              year="2015 - 2017"
+              heading="Natore Government Boys High School, Natore"
               desc="QQuia nobis sequi est occaecati aut. Repudiandae et iusto quae
                 reiciendis et quis Eius vel ratione eius unde vitae rerum
                 voluptates asperiores voluptatem Earum molestiae consequatur
