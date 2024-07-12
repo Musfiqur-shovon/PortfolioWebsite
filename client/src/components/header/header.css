@@ -66,15 +66,21 @@
   padding: 10px;
   font-size: 20px;
 }
+.nav-bar-design {
+  overflow: visible;
+}
 /* Main Navbar Design Style Start*/
 .navbar-head {
   display: flex;
+  position: fixed;
+  top: 0;
   width: 100%;
   justify-content: space-between;
   align-items: center;
   background-color: #353433;
   padding: 10px 20px;
   color: var(--main-bg-color);
+  z-index: 1000;
 }
 .navbar-brand-head {
   display: flex;

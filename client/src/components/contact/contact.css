@@ -12,7 +12,7 @@ input {
 .contact-info input,
 textarea {
   padding: 10px;
-  font-size: 20px;
+  font-size: 18px;
   width: 100%;
   margin-bottom: 20px;
   background-color: white;
@@ -46,19 +46,30 @@ textarea:focus {
 .image-contact {
   width: 100%;
   height: 250px;
-  background-color: black;
   margin-bottom: 30px;
+  border: 2px solid var(--button-color);
+  border-radius: 5px;
 }
 .coninfo h3,
+h4,
 h5,
 p {
   margin: 0 10px 0 10px;
   padding: 0;
 }
 .coninfo h3 {
+  font-weight: bold;
+  font-size: 20px;
   padding-bottom: 15px;
 }
+.coninfo h4 {
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 10px;
+  color: black;
+}
 .coninfo h5 {
+  font-size: 16px;
   padding-bottom: 10px;
   color: black;
 }
@@ -87,4 +98,20 @@ p {
 }
 .communication:hover::before {
   width: 100%;
+}
+
+.btn-box button {
+  background-color: var(--button-color); /*var(--form-color);*/
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: 2px solid var(--button-color);
+  border-radius: 10px;
+}
+.btn-box button:hover {
+  background-color: white;
+  color: var(--button-color);
+  border: 2px solid var(--button-color);
 }

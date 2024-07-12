@@ -10,8 +10,8 @@ function Skills() {
         <div className="session-title">
           <h2>Skills</h2>
           <p>
-            There are many variations of passages of Lorem Ipsum available Lorem
-            Ipsum available but the majority
+            Proficient in Web Development, Database Design and RESTful API
+            development
           </p>
           <HeadingLine />
         </div>

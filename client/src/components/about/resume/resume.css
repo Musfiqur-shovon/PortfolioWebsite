@@ -15,7 +15,7 @@
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #34b7a7;
+  border-left: 2px solid var(--button-color);
   position: relative;
 }
 
@@ -24,7 +24,7 @@
   font-size: 18px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #1d685f;
+  color: var(--button-color1);
   margin-bottom: 10px;
 }
 
@@ -35,10 +35,10 @@
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #34b7a7;
+  color: var(--button-color);
 }
 .resume .resume-item h3 {
-  color: #34b7a7;
+  color: var(--button-color);
   font-size: 18px;
   font-weight: 600;
 }
@@ -66,5 +66,5 @@
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #34b7a7;
+  border: 2px solid var(--button-color);
 }

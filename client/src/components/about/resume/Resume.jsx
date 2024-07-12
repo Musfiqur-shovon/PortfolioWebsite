@@ -15,20 +15,27 @@ function Resume() {
               <p>
                 <ul>
                   <li>
-                    Lead in the design, development, and implementation of the
-                    graphic, layout, and production communication materials
+                    Hands on practical experience in ERP software, Restful API,
+                    Java and MS SQL.
                   </li>
                   <li>
-                    Delegate tasks to the 7 members of the design team and
-                    provide counsel on all aspects of the project.{" "}
+                    Developed robust REST APIs using the ZAB Framework, HTML,
+                    CSS, Java EE, Apache Tomcat Server, Postman and MS-SQL for
+                    clients such as Unimart, K-Bakery, United Hospital and
+                    Chef's Table.{" "}
                   </li>
                   <li>
-                    Supervise the assessment of all graphic materials in order
-                    to ensure quality and accuracy of the design
+                    Designed software architecture and relational databases,
+                    optimizing SQL queries for performance.
                   </li>
                   <li>
-                    Oversee the efficient use of production project budgets
-                    ranging from $2,000 - $25,000
+                    Conducted performance testing and API load testing to ensure
+                    reliability and quality assurance.
+                  </li>
+                  <li>
+                    Thrives in problem-solving and teamwork environments, eager
+                    to contribute to innovative AI and ML solutions in a
+                    full-time role.
                   </li>
                 </ul>
               </p>
@@ -40,28 +47,22 @@ function Resume() {
               title="Bachelor in Computer Science &amp; Engineering"
               year="2020 - 2024"
               heading="BRAC University"
-              desc="Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam
-                iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti
-                nerada porti sand markend"
+              desc="
+                  Throughout my time at BRAC University, I've immersed myself in Computer Science and Engineering, focusing on machine learning and AI. Engaging in coursework and software projects, I've earned knowledge in robust software design, database optimization, SDLC method and collaborative problem-solving."
             />
 
             <Education
               title="Higher Secondary Certificate"
               year="2017 - 2019"
               heading="N.S. Government College, Natore"
-              desc="Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam
-                iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti
-                nerada porti sand markend"
+              desc="Secured a good position in HSC, paving the way for my journey of  Science, Technology and Innovation. "
             />
 
             <Education
               title="Secondary School Certificate"
               year="2015 - 2017"
               heading="Natore Government Boys High School, Natore"
-              desc="QQuia nobis sequi est occaecati aut. Repudiandae et iusto quae
-                reiciendis et quis Eius vel ratione eius unde vitae rerum
-                voluptates asperiores voluptatem Earum molestiae consequatur
-                neque etlon sader mart dila"
+              desc="Secure a strong position in SSC with high ambitions for the future."
             />
           </div>
         </div>

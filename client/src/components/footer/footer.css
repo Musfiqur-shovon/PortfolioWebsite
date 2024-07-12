@@ -1,65 +1,65 @@
-:root{
-    --main: rgb(70, 70, 70);
+:root {
+  --main: rgb(70, 70, 70);
 }
-footer{
-    width: 100%;
-    background-color: rgb(70, 70, 70);
-    color: white;
-    text-align: center;
-    padding-top: 30px;
+footer {
+  width: 100%;
+  background-color: rgb(70, 70, 70);
+  color: white;
+  text-align: center;
+  padding-top: 30px;
 }
-.footer{
-    padding-top: 20px;
+.footer {
+  padding-top: 20px;
 }
-.logo{
-    width: 80px;
-    border-radius: 50%;
-    border: 2px solid white;
+.logo {
+  width: 80px;
+  border-radius: 50%;
+  border: 2px solid white;
 }
-.bar{
-    margin: 0 auto;
-    width: 80%;
-    height: 2px;
-    background-color: white;
+.bar {
+  margin: 0 auto;
+  width: 80%;
+  height: 2px;
+  background-color: white;
 }
-.brand-name h2{
-    width: 100%;
-    font-size: 1.2em;
-    font-weight: bold;
-    margin: 10px 0;
-    color: white;
-  }
-  .menu {
-    margin: 20px;
-  }
-  .menu ul li{
-    display: inline-block;
-  }
-  .menu a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    border-bottom: 2px solid var(--main); 
-  }
+.brand-name h2 {
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px 0;
+  color: white;
+}
+.menu {
+  margin: 20px;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  border-bottom: 2px solid var(--main);
+}
 
-   .menu a:hover {
-    border-bottom: 2px solid white;
-  }
+.menu a:hover {
+  border-bottom: 2px solid white;
+}
 
-  .copyright {
-    padding: 10px;
-    background-color: black;
-    margin-top: 10px; /* Adjust spacing from the rest of the footer content */
-  }
+.copyright {
+  padding: 10px;
+  background-color: black;
+  margin-top: 10px; /* Adjust spacing from the rest of the footer content */
+}
 
 @media screen and (max-width: 768px) {
-    .bar{
-        width: 50%;
-    }
-    .menu ul li{
-      display: flex;
-      padding-top: 10px; 
-    }
+  .bar {
+    width: 50%;
+  }
+  .menu ul li {
+    display: flex;
+    padding-top: 10px;
+  }
 }
 /*
 <a href="#">Home</a>

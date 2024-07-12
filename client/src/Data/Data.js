@@ -10,7 +10,8 @@ export const projects = [
     title: "Portfolio Website",
     category: "Web Project",
     technology: "React, HTML, CSS, Boostrap",
-    description: "akhno kicu likhi nae",
+    description:
+      "Developed a sleek and responsive portfolio website using React, HTML, CSS, and Bootstrap to showcase projects and skills effectively",
     imageLink: portfolio,
     projectLink: "",
     completed: true,
@@ -19,7 +20,8 @@ export const projects = [
     title: "Hospital Management",
     category: "Web Project",
     technology: "Html, CSS, JavaScript, PHP, MySql",
-    description: "akhno kicu likhi nae",
+    description:
+      "Created a comprehensive hospital management system to streamline administrative and patient management processes.Patients can book doctor appoinment based on their prefferable time",
     imageLink: hms,
     projectLink: "",
     completed: true,
@@ -28,7 +30,8 @@ export const projects = [
     title: "Spam Text Classification",
     category: "Machine Learing Project",
     technology: "Machine Learning, NLP, Django",
-    description: "akhno kicu likhi nae",
+    description:
+      "Implemented a spam text classification system using Machine Learning and NLP with word embedding, vector tokenization, AI models, and a user-friendly interface built with Django",
     imageLink: nlp,
     projectLink: "",
     completed: true,
@@ -37,7 +40,8 @@ export const projects = [
     title: "E-Commerce",
     category: "ERP Software",
     technology: "React, Node, Express, MongoDB",
-    description: "akhno kicu likhi nae",
+    description:
+      "Built an E-commerce platform using React for frontend, Node.js and Express.js for backend, and MongoDB for database management",
     imageLink: esite,
     projectLink: "",
     completed: false,
@@ -46,7 +50,8 @@ export const projects = [
     title: "BMI Calculator",
     category: "Android APP",
     technology: "Android Studio, JAVA",
-    description: "akhno kicu likhi nae",
+    description:
+      "Developed a BMI calculator app using Android Studio and Java for efficient health tracking",
     imageLink: bmi,
     projectLink: "",
     completed: true,
@@ -55,7 +60,8 @@ export const projects = [
     title: "Daily TODO",
     category: "WEB APP",
     technology: "React, Node, Express, MongoDB",
-    description: "akhno kicu likhi nae",
+    description:
+      "Created a daily TODO application using React for the frontend and Node.js, Express.js & MongoDB for backend services",
     imageLink: todo,
     projectLink: "",
     completed: true,

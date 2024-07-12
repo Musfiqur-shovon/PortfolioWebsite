@@ -11,6 +11,9 @@
   justify-content: space-between;
   color: black;
 }
+.title-tech h4 {
+  font-size: 18px;
+}
 
 .progress-tech {
   padding: 6px;

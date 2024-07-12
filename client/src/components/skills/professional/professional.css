@@ -5,9 +5,10 @@
   justify-content: center;
   align-items: center;
 }
-.progress-heading-text {
+.progress-heading-text h4 {
   color: black;
   text-align: center;
+  font-size: 18px;
   padding-top: 5px;
 }
 .progressbar {
